@@ -1,6 +1,6 @@
-# Debugging code in JS libraries
+# Debug options for JS libraries
 
-This is a follow up to a question I asked on Twitter:
+This is a follow up to a question I asked [on Twitter](https://twitter.com/dubroy/status/1724509780369088542):
 
 > What are some good patterns for permanently including debugging code in a JS lib?
 >
