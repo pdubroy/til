@@ -103,3 +103,9 @@ One catch is that any debugging code that uses `writeFileSync` needs to handle t
 3. `DEBUG=true` but `"node:fs"` NOT available.
 
 You can handle these by guarding the code with something like `if (!DEBUG || !fs.writeFileSync) return`.
+
+## Other considerations
+
+It may not be necessary to handle production builds specially. You can simplify the config by treating development and production identically.
+
+For larger amounts of debugging code, you may want to take advantage of Vite's dead code elimination. See [Removing assertions from production build with Vite](https://blog.battlefy.com/removing-assertions-from-production-build-with-vite).
