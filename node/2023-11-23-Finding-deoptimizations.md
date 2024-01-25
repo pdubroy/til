@@ -13,6 +13,6 @@ So, if you want to improve the performance of your JS code, you want to find out
 The instructions in their [How to Use](https://github.com/microsoft/deoptexplorer-vscode?tab=readme-ov-file#how-to-use) section worked well for me.
 
 <figure>
-  <img src="../images/deopt-explorer.png" alt="Deopt Explorer in action" />
+  <img src="../images/deopt-explorer.png" alt="A screenshot showing Deopt Explorer in use." />
   <figcaption>Example of an <i>eager bailout</i> in Deopt Explorer.</figcaption>
 </figure>
