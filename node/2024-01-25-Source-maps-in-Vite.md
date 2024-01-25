@@ -1,8 +1,10 @@
 # Source maps in Vite
 
-I'm working on an app written in TypeScript, which is built with Vite. The app depends on a library that's also written in TypeScript, and which ships with source maps.
+I'm working on an app written in TypeScript, which is built with [Vite][]. The app depends on a library that's also written in TypeScript, and which ships with source maps.
 
 When I'm debugging the app code, I want to be able to step into a function from the library, and see the original TypeScript source code.
+
+[Vite]: https://vitejs.dev/
 
 ## Problem
 
