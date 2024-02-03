@@ -4,6 +4,8 @@ A couple years ago, I decided to stop using TypeScript for personal projects, be
 
 And, while Bun can directly execute[^1] TypeScript, many of my projects target the browser. So I still need some kind of development server to compile and bundle my TypeScript source code for the browser.
 
+[^1]: Technically, Bun internally translates TypeScript into JavaScript before execution.
+
 [Vite](https://vitejs.dev/) does a great job of this out of the box, but it adds a lot of complexity, since it's a wrapper around two separate bundlers: [Rollup](https://rollupjs.org/) and [esbuild](https://esbuild.github.io/).
 
 Ideally, I wanted to find a solution using Bun's built-in bundler.
@@ -70,3 +72,17 @@ try {
   throw e;
 }
 ```
+
+The key part is this — on requests to the `/bundle` endpoint, it builds and bundles the TypeScript sources using the `demoConfig`.
+
+```ts
+      switch (url.pathname) {
+        // ...
+        case "/bundle":
+          const build = await Bun.build(demoConfig);
+          return new Response(build.outputs[0]);
+        // ...
+      }
+```
+
+There are certainly other ways to do this, but this is working well for me. Bun's bundler is super fast, and my projects are generally small, so re-running on the bundler on every request hasn't been a problem.
