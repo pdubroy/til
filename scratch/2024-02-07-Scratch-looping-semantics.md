@@ -24,7 +24,7 @@ A [discussion on the Scratch forum](https://scratch.mit.edu/discuss/topic/313368
 
 What about interleaving? If there are two scripts with repeat blocks, and one of them causes a redraw and the other doesn't, what happens?
 
-![][images/scratch-interleaving.png]
+![](images/scratch-interleaving.png)
 
 The setup is as follows:
 
