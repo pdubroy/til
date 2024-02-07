@@ -51,9 +51,11 @@ try {
           return new Response(Bun.file("demo/index.html"));
         case "/bundle":
           const build = await Bun.build(demoConfig);
-          return new Response(build.outputs[0], {
-            headers: { "Content-Type": "application/javascript" },
-          });
+          if (!build.success) {
+            console.error(build.logs);
+            return new Response("Build failed", { status: 500 });
+          }
+          return new Response(build.outputs[0]);
         default:
           const f = Bun.file("demo" + url.pathname);
           return (await f.exists())
