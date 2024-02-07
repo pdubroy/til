@@ -9,10 +9,7 @@ It's named after the Italian engineer and economist [Vilfredo Pareto](https://en
 
 I find it easiest to understand visually. You've got a number of solutions, which you can plot based on their performance on the metrics you care about:
 
-<figure>
-  <img src="../images/pareto-frontier.png" alt="A scatter plot showing a number of points, with a subset of points labeled as the Pareto frontier." />
-  <figcaption>Example of a <i>Pareto frontier</i>. Points A and B are on the Pareto frontier, while C is not.</figcaption>
-</figure>
+![A scatter plot showing a number of points, with a subset of points labeled as the Pareto frontier.](../images/pareto-frontier.png)
 
 Assuming you've chosen an initial solution, a _Pareto improvement_ would be a solution that is better on both axes. In the example above, moving from C to either A or B is a Pareto improvement. For JIT compilers, that would mean a compiler that's both faster, and which produces faster code.
 
