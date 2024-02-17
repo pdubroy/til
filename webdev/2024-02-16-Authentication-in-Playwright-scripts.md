@@ -50,3 +50,10 @@ test("download Buttondown invoices", async ({ page }) => {
   // …
 });
 ```
+
+Note that the call to `page.pause()` will open the [Playwright inspector](https://playwright.dev/docs/debug#playwright-inspector), and you have to click the _Resume_ button in the inspector to continue the script after logging in:
+
+![Screenshot of the Playwright inspector window, showing the "Resume" button at the top](../images/playwright-inspector.png)
+
+To avoid having to manually continue the script, you could instead use
+ [`waitFor`](https://playwright.dev/docs/api/class-locator#locator-wait-for) or something similar.
