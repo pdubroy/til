@@ -6,9 +6,10 @@ Short notes on useful things I've learned. Inspired by [@simonw](https://github.
 
 ## By date
 
+- [Data race](./concepts/2024-02-17-Data-race.md) - 2024-02-17
 - [Authentication in Playwright scripts](./webdev/2024-02-16-Authentication-in-Playwright-scripts.md) - 2024-02-16
-- [Pareto frontier](./concepts/2024-02-07-Pareto-frontier.md) - 2024-02-07
 - [Scratch looping semantics](./scratch/2024-02-07-Scratch-looping-semantics.md) - 2024-02-07
+- [Pareto frontier](./concepts/2024-02-07-Pareto-frontier.md) - 2024-02-07
 - [Bun dev server](./js/2024-02-03-Bun-dev-server.md) - 2024-02-03
 - [Source maps in Vite](./js/2024-01-25-Source-maps-in-Vite.md) - 2024-01-25
 - [Finding deoptimizations](./js/2023-11-23-Finding-deoptimizations.md) - 2023-11-23
@@ -18,6 +19,7 @@ Short notes on useful things I've learned. Inspired by [@simonw](https://github.
 
 ### Concepts
 
+- [Data race](./concepts/2024-02-17-Data-race.md)
 - [Pareto frontier](./concepts/2024-02-07-Pareto-frontier.md)
 
 ### JavaScript

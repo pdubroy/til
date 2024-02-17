@@ -1,7 +1,6 @@
 import fs from "fs";
 import path from "path";
 
-const rootDir = ".";
 const byDate = [];
 const byTopic = {};
 
@@ -39,7 +38,7 @@ function traverseDir(dir) {
   });
 }
 
-traverseDir(rootDir);
+traverseDir(".");
 byDate.sort((a, b) => (a.date < b.date ? 1 : -1));
 
 const topicKeys = Object.keys(byTopic).sort((a, b) => (a < b ? -1 : 1));

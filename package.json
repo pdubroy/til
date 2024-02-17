@@ -3,7 +3,7 @@
   "type": "module",
   "scripts": {
     "format": "npx prettier --write '**/*.js'",
-    "generate": "npx scripts/generateIndex.js"
+    "generate": "node scripts/generateIndex.js"
   },
   "devDependencies": {
     "prettier": "^3.2.5"
