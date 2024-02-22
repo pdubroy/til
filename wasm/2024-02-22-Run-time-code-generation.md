@@ -18,9 +18,7 @@ Here's a diagram to clarify:
 
 <img width="620" alt="A diagram illustrating the scenario described above" src="../images/wasm-code-generation.png">
 
-(Disclaimer, I have not yet done this myself!)
-
-Apparently [WAForth](https://github.com/remko/waforth) uses a technique similar to this. According to the [design doc](https://github.com/remko/waforth/blob/master/doc/Design.md):
+[WAForth](https://github.com/remko/waforth) uses a technique similar to this. According to the [design doc](https://github.com/remko/waforth/blob/master/doc/Design.md):
 
 > While in compile mode for a word, the compiler generates WebAssembly instructions in binary format (since there is no assembler infrastructure in the browser). Since WebAssembly doesn't support JIT compilation yet, a finished word is bundled into a separate binary WebAssembly module, and sent to the loader, which dynamically loads it and registers it with a shared function table at the next offset, which in turn is recorded in the word dictionary.
 >
