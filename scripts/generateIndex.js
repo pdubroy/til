@@ -24,10 +24,10 @@ function traverseDir(dir) {
     } else if (path.extname(file) === ".md" && file !== "README.md") {
       const cat = path.basename(dir);
       const date = file.match(/(\d{4}-\d{2}-\d{2})/)[0];
-      const title = path
-        .basename(file, ".md")
-        .replace(date + "-", "")
-        .replace(/-/g, " ");
+      const title = fs
+        .readFileSync(filePath, "utf-8")
+        .split("\n")[0]
+        .replace("# ", "");
 
       byDate.push({ date, entry: `- [${title}](./${filePath}) - ${date}` });
 

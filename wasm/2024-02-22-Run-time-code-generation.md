@@ -1,4 +1,4 @@
-# Run-time code generation with WebAssembly
+# Run-time code generation in WebAssembly
 
 I first read about this sometime last year, but I decided to write it up since I've been asked about it twice in the past few weeks.
 
