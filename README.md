@@ -6,6 +6,7 @@ Short notes on useful things I've learned. Inspired by [@simonw](https://github.
 
 ## By date
 
+- [Run time code generation](./wasm/2024-02-22-Run-time-code-generation.md) - 2024-02-22
 - [Data race](./concepts/2024-02-17-Data-race.md) - 2024-02-17
 - [Authentication in Playwright scripts](./webdev/2024-02-16-Authentication-in-Playwright-scripts.md) - 2024-02-16
 - [Scratch looping semantics](./scratch/2024-02-07-Scratch-looping-semantics.md) - 2024-02-07
@@ -32,6 +33,10 @@ Short notes on useful things I've learned. Inspired by [@simonw](https://github.
 ### Scratch
 
 - [Scratch looping semantics](./scratch/2024-02-07-Scratch-looping-semantics.md)
+
+### WebAssembly
+
+- [Run time code generation](./wasm/2024-02-22-Run-time-code-generation.md)
 
 ### Web dev
 

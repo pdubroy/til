@@ -6,6 +6,7 @@ const byTopic = {};
 
 const topicTitleByDir = {
   js: "JavaScript",
+  wasm: "WebAssembly",
   webdev: "Web dev",
 };
 
