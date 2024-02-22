@@ -16,6 +16,6 @@ This means that, unlike on a conventional architecture, you can't just patch the
 
 Here's a diagram to clarify:
 
-![A diagram illustrating the scenario described above](images/wasm-code-generation.png)
+![A diagram illustrating the scenario described above](../images/wasm-code-generation.png)
 
 (Disclaimer, I have not yet done this myself!)
