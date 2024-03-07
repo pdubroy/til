@@ -15,6 +15,8 @@ Ideally, I wanted to find a solution using Bun's built-in bundler.
 First, I set up a Bun build script, which I use to bundle my library for release, in `scripts/build.ts`:
 
 ```ts
+import * as url from 'node:url';
+
 import type { BuildConfig } from "bun";
 
 export const demoConfig: BuildConfig = {
@@ -29,10 +31,12 @@ export const config: BuildConfig = {
   sourcemap: "external",
 };
 
-Bun.build({
-  ...config,
-  outdir: "dist",
-});
+if (process.argv[1] === url.fileURLToPath(import.meta.url)) {
+  Bun.build({
+    ...config,
+    outdir: "dist",
+  });
+}
 ```
 
 Then, I added a script to start a development web server in `scripts/serve.ts`. It uses imports `demoConfig` from the build script, and starts a server on port 3000.
