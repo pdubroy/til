@@ -1,10 +1,10 @@
 # esbuild dev server
 
-What I wanted was set of scripts just like I described in [Bun dev server](js/2024-02-03-Bun-dev-server.md), but for [esbuild API](https://esbuild.github.io/) rather than Bun:
+What I wanted was set of scripts just like I described in [Bun dev server](js/2024-02-03-Bun-dev-server.md), but for [esbuild](https://esbuild.github.io/) rather than Bun:
 
 > So I still need some kind of development server to compile and bundle my TypeScript source code for the browser.
 >
-> [Vite](https://vitejs.dev/) does a great job of this out of the box, but it adds a lot of complexity, since it's a wrapper around two separate bundlers: [Rollup](https://rollupjs.org/) and [esbuild](https://esbuild.github.io/).
+> Vite does a great job of this out of the box, but it adds a lot of complexity, since it's a wrapper around two separate bundlers: Rollup and esbuild.
 >
 > Ideally, I wanted to find a solution using Bun's built-in bundler.
 
