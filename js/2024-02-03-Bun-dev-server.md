@@ -94,3 +94,5 @@ The key part is this — on requests to the `/bundle` endpoint, it builds and bu
 ```
 
 There are certainly other ways to do this, but this is working well for me. Bun's bundler is super fast, and my projects are generally small, so re-running on the bundler on every request hasn't been a problem.
+
+**Edit 2024-03-07:** Fixed a bug where `Bun.build` was being called with the configuration was imported from `scripts/serve.ts`.
