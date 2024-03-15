@@ -6,7 +6,7 @@ Short notes on useful things I've learned. Inspired by [@simonw](https://github.
 
 ## By date
 
-- [Python's symtable module](./python/2024-03-14-Pythons-symtable-module.md) - 2024-03-14
+- [The symtable module in Python](./python/2024-03-14-The-symtable-module.md) - 2024-03-14
 - [esbuild dev server](./js/2024-03-07-esbuild-dev-server.md) - 2024-03-07
 - [Run-time code generation in WebAssembly](./wasm/2024-02-22-Run-time-code-generation.md) - 2024-02-22
 - [Data race](./concepts/2024-02-17-Data-race.md) - 2024-02-17
@@ -35,7 +35,7 @@ Short notes on useful things I've learned. Inspired by [@simonw](https://github.
 
 ### Python
 
-- [Python's symtable module](./python/2024-03-14-Pythons-symtable-module.md)
+- [The symtable module in Python](./python/2024-03-14-The-symtable-module.md)
 
 ### Scratch
 
