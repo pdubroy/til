@@ -1,8 +1,8 @@
 # The symtable module
 
-This week, I've been reworking some of the code for [WebAssembly from the Ground Up](https://wasmgroundup.com), a book that [Mariano](https://marianoguerra.github.io/) and I are writing together.
+This week, I've been reworking some of the code for [WebAssembly from the Ground Up](https://wasmgroundup.com), the book that [Mariano](https://marianoguerra.github.io/) and I are writing together.
 
-The code in question was related to the creation and manipulation of symbol tables. I was thinking about that API I wanted to present, and — like I often do — wanted to look at some other implementations for references.
+The code in question was related to the creation and manipulation of symbol tables. I was thinking about the API I wanted to present, and — as I often do — I wanted to look at some other implementations for reference.
 
 Symbol tables are usually just an implementation detail of a compiler, so I thought I'd have to dig to find some examples. But, then I learned about Python's [`symtable` module](https://docs.python.org/3/library/symtable.html).
 
