@@ -6,6 +6,7 @@ Short notes on useful things I've learned. Inspired by [@simonw](https://github.
 
 ## By date
 
+- [The symtable module](./python/2024-03-14-The-symtable-module.md) - 2024-03-14
 - [esbuild dev server](./js/2024-03-07-esbuild-dev-server.md) - 2024-03-07
 - [Run-time code generation in WebAssembly](./wasm/2024-02-22-Run-time-code-generation.md) - 2024-02-22
 - [Data race](./concepts/2024-02-17-Data-race.md) - 2024-02-17
@@ -31,6 +32,10 @@ Short notes on useful things I've learned. Inspired by [@simonw](https://github.
 - [Source maps in Vite](./js/2024-01-25-Source-maps-in-Vite.md)
 - [Finding deoptimizations](./js/2023-11-23-Finding-deoptimizations.md)
 - [Debug options for JS libraries](./js/2023-11-14-Debug-options.md)
+
+### Python
+
+- [The symtable module](./python/2024-03-14-The-symtable-module.md)
 
 ### Scratch
 
