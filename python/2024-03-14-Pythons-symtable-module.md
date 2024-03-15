@@ -1,4 +1,4 @@
-# The symtable module
+# Python's symtable module
 
 This week, I've been reworking some of the code for [WebAssembly from the Ground Up](https://wasmgroundup.com), the book that [Mariano](https://marianoguerra.github.io/) and I are writing together.
 
