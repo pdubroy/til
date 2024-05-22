@@ -6,6 +6,7 @@ Short notes on useful things I've learned. Inspired by [@simonw](https://github.
 
 ## By date
 
+- [JAX](./python/2024-05-22-JAX.md) - 2024-05-22
 - [Rye and Poetry](./python/2024-05-16-Rye-and-Poetry.md) - 2024-05-16
 - [Corner plot](./concepts/2024-05-10-Corner-plot.md) - 2024-05-10
 - [Simplex](./concepts/2024-04-28-Simplex.md) - 2024-04-28
@@ -40,6 +41,7 @@ Short notes on useful things I've learned. Inspired by [@simonw](https://github.
 
 ### Python
 
+- [JAX](./python/2024-05-22-JAX.md)
 - [Rye and Poetry](./python/2024-05-16-Rye-and-Poetry.md)
 - [The symtable module in Python](./python/2024-03-14-The-symtable-module.md)
 
