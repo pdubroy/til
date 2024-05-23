@@ -1,0 +1,19 @@
+[project]
+name = "til"
+version = "0.1.0"
+description = "Add your description here"
+authors = [
+    { name = "Patrick Dubroy", email = "pdubroy@gmail.com" }
+]
+dependencies = [
+    "jax[cpu]>=0.4.28",
+    "matplotlib>=3.9.0",
+    "ipykernel>=6.29.4",
+]
+readme = "README.md"
+requires-python = ">= 3.8"
+
+[tool.rye]
+managed = true
+virtual = true
+dev-dependencies = []
