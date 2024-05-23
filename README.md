@@ -6,6 +6,7 @@ Short notes on useful things I've learned. Inspired by [@simonw](https://github.
 
 ## By date
 
+- [Curvature combs](./geometry/2024-05-23-Curvature-combs.ipynb) - 2024-05-23
 - [JAX](./python/2024-05-22-JAX.md) - 2024-05-22
 - [Rye and Poetry](./python/2024-05-16-Rye-and-Poetry.md) - 2024-05-16
 - [Corner plot](./concepts/2024-05-10-Corner-plot.md) - 2024-05-10
@@ -30,6 +31,10 @@ Short notes on useful things I've learned. Inspired by [@simonw](https://github.
 - [Simplex](./concepts/2024-04-28-Simplex.md)
 - [Data race](./concepts/2024-02-17-Data-race.md)
 - [Pareto frontier](./concepts/2024-02-07-Pareto-frontier.md)
+
+### Geometry
+
+- [Curvature combs](./geometry/2024-05-23-Curvature-combs.ipynb)
 
 ### JavaScript
 
