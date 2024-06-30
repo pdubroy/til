@@ -6,6 +6,8 @@ Short notes on useful things I've learned. Inspired by [@simonw](https://github.
 
 ## By date
 
+- [Box blur](./algorithms/2024-06-30-Box-blur.ipynb) - 2024-06-30
+- [JAX Compilation](./python/2024-06-25-JAX-Compilation.ipynb) - 2024-06-25
 - [Curvature combs](./geometry/2024-05-23-Curvature-combs.ipynb) - 2024-05-23
 - [JAX](./python/2024-05-22-JAX.md) - 2024-05-22
 - [Rye and Poetry](./python/2024-05-16-Rye-and-Poetry.md) - 2024-05-16
@@ -24,6 +26,10 @@ Short notes on useful things I've learned. Inspired by [@simonw](https://github.
 - [Debug options for JS libraries](./js/2023-11-14-Debug-options.md) - 2023-11-14
 
 ## By topic
+
+### Algorithms
+
+- [Box blur](./algorithms/2024-06-30-Box-blur.ipynb)
 
 ### Concepts
 
@@ -46,6 +52,7 @@ Short notes on useful things I've learned. Inspired by [@simonw](https://github.
 
 ### Python
 
+- [JAX Compilation](./python/2024-06-25-JAX-Compilation.ipynb)
 - [JAX](./python/2024-05-22-JAX.md)
 - [Rye and Poetry](./python/2024-05-16-Rye-and-Poetry.md)
 - [The symtable module in Python](./python/2024-03-14-The-symtable-module.md)
