@@ -6,6 +6,7 @@ Short notes on useful things I've learned. Inspired by [@simonw](https://github.
 
 ## By date
 
+- [Installing Python type stubs](./python/2024-07-17-installing-Python-type-stubs.md) - 2024-07-17
 - [PyScript](./python/2024-07-01-PyScript.md) - 2024-07-01
 - [Box blur](./algorithms/2024-06-30-Box-blur.ipynb) - 2024-06-30
 - [Curvature combs](./geometry/2024-05-23-Curvature-combs.ipynb) - 2024-05-23
@@ -52,6 +53,7 @@ Short notes on useful things I've learned. Inspired by [@simonw](https://github.
 
 ### Python
 
+- [Installing Python type stubs](./python/2024-07-17-installing-Python-type-stubs.md)
 - [PyScript](./python/2024-07-01-PyScript.md)
 - [JAX](./python/2024-05-22-JAX.md)
 - [Rye and Poetry](./python/2024-05-16-Rye-and-Poetry.md)
