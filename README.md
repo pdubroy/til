@@ -6,6 +6,7 @@ Short notes on useful things I've learned. Inspired by [@simonw](https://github.
 
 ## By date
 
+- [Debugging shaders](./gpu/2024-09-23-Debugging-shaders.md) - 2024-09-23
 - [Shader performance profiling on macOS](./gpu/2024-09-13-Shader-performance-profiling.md) - 2024-09-13
 - [Installing Python type stubs](./python/2024-07-17-installing-Python-type-stubs.md) - 2024-07-17
 - [PyScript](./python/2024-07-01-PyScript.md) - 2024-07-01
@@ -46,6 +47,7 @@ Short notes on useful things I've learned. Inspired by [@simonw](https://github.
 
 ### Gpu
 
+- [Debugging shaders](./gpu/2024-09-23-Debugging-shaders.md)
 - [Shader performance profiling on macOS](./gpu/2024-09-13-Shader-performance-profiling.md)
 
 ### JavaScript
