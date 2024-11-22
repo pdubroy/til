@@ -6,6 +6,7 @@ Short notes on useful things I've learned. Inspired by [@simonw](https://github.
 
 ## By date
 
+- [Longer V8 stack traces](./js/2024-11-22-Longer-Node-stack-traces.md) - 2024-11-22
 - [Debugging shaders](./gpu/2024-09-23-Debugging-shaders.md) - 2024-09-23
 - [Shader performance profiling on macOS](./gpu/2024-09-13-Shader-performance-profiling.md) - 2024-09-13
 - [Installing Python type stubs](./python/2024-07-17-installing-Python-type-stubs.md) - 2024-07-17
@@ -52,6 +53,7 @@ Short notes on useful things I've learned. Inspired by [@simonw](https://github.
 
 ### JavaScript
 
+- [Longer V8 stack traces](./js/2024-11-22-Longer-Node-stack-traces.md)
 - [esbuild dev server](./js/2024-03-07-esbuild-dev-server.md)
 - [Bun dev server](./js/2024-02-03-Bun-dev-server.md)
 - [Source maps in Vite](./js/2024-01-25-Source-maps-in-Vite.md)

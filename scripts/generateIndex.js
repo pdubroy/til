@@ -20,11 +20,17 @@ function traverseDir(dir) {
     const fileStat = fs.statSync(filePath);
 
     if (fileStat.isDirectory()) {
-      if (file[0] !== '.') traverseDir(filePath);
-    } else if ([".md", ".ipynb"].includes(path.extname(file)) && file !== "README.md") {
+      if (file[0] !== ".") traverseDir(filePath);
+    } else if (
+      [".md", ".ipynb"].includes(path.extname(file)) &&
+      file !== "README.md"
+    ) {
       const cat = path.basename(dir);
       const date = file.match(/(\d{4}-\d{2}-\d{2})/)[0];
-      let title = file.slice(date.length + 1).replace('-', ' ').replace('.ipynb', '')
+      let title = file
+        .slice(date.length + 1)
+        .replace("-", " ")
+        .replace(".ipynb", "");
       if (path.extname(file) === ".md") {
         title = fs
           .readFileSync(filePath, "utf-8")
