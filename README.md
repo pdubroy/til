@@ -6,6 +6,7 @@ Short notes on useful things I've learned. Inspired by [@simonw](https://github.
 
 ## By date
 
+- [Why silicon wafers are round](./concepts/2025-01-15-Why-silicon-wafers-are-round.md) - 2025-01-15
 - [Scripting GMail with Python](./python/2025-01-07-scripting-GMail.md) - 2025-01-07
 - [Longer V8 stack traces](./js/2024-11-22-Longer-Node-stack-traces.md) - 2024-11-22
 - [Debugging shaders](./gpu/2024-09-23-Debugging-shaders.md) - 2024-09-23
@@ -38,6 +39,7 @@ Short notes on useful things I've learned. Inspired by [@simonw](https://github.
 
 ### Concepts
 
+- [Why silicon wafers are round](./concepts/2025-01-15-Why-silicon-wafers-are-round.md)
 - [Corner plot](./concepts/2024-05-10-Corner-plot.md)
 - [Simplex](./concepts/2024-04-28-Simplex.md)
 - [Data race](./concepts/2024-02-17-Data-race.md)
