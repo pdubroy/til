@@ -6,6 +6,7 @@ Short notes on useful things I've learned. Inspired by [@simonw](https://github.
 
 ## By date
 
+- [Lightweight multitenancy for server-side JS](./js/2025-01-18-Lightweight-multitenancy.md) - 2025-01-18
 - [Why silicon wafers are round](./concepts/2025-01-15-Why-silicon-wafers-are-round.md) - 2025-01-15
 - [Scripting GMail with Python](./python/2025-01-07-scripting-GMail.md) - 2025-01-07
 - [Longer V8 stack traces](./js/2024-11-22-Longer-Node-stack-traces.md) - 2024-11-22
@@ -56,6 +57,7 @@ Short notes on useful things I've learned. Inspired by [@simonw](https://github.
 
 ### JavaScript
 
+- [Lightweight multitenancy for server-side JS](./js/2025-01-18-Lightweight-multitenancy.md)
 - [Longer V8 stack traces](./js/2024-11-22-Longer-Node-stack-traces.md)
 - [esbuild dev server](./js/2024-03-07-esbuild-dev-server.md)
 - [Bun dev server](./js/2024-02-03-Bun-dev-server.md)
