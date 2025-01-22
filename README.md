@@ -6,6 +6,7 @@ Short notes on useful things I've learned. Inspired by [@simonw](https://github.
 
 ## By date
 
+- [Getting started with Zig](./zig/2025-01-22-Getting-started-with-Zig.md) - 2025-01-22
 - [Lightweight multitenancy for server-side JS](./js/2025-01-18-Lightweight-multitenancy.md) - 2025-01-18
 - [Why silicon wafers are round](./concepts/2025-01-15-Why-silicon-wafers-are-round.md) - 2025-01-15
 - [Scripting GMail with Python](./python/2025-01-07-scripting-GMail.md) - 2025-01-07
@@ -85,3 +86,7 @@ Short notes on useful things I've learned. Inspired by [@simonw](https://github.
 ### Web dev
 
 - [Authentication in Playwright scripts](./webdev/2024-02-16-Authentication-in-Playwright-scripts.md)
+
+### Zig
+
+- [Getting started with Zig](./zig/2025-01-22-Getting-started-with-Zig.md)
