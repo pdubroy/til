@@ -98,7 +98,6 @@ The main argument is that:
 
 - The surface area of WebAssembly (both the spec and the implementations) is much smaller than JavaScript and V8.
 - The WebAssembly spec was designed with formal verification in mind, and there's [a machine-verified version of the formalization and soundness proof](https://dl.acm.org/doi/10.1145/3167082), proving that:
-
   > no computation defined by instantiation or invocation of a valid module can "crash" or otherwise (mis)behave in ways not covered by the execution semantics given in [the WebAssembly Core Specification](https://www.w3.org/TR/wasm-core-1/).
 
 Other notes:

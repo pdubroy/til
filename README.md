@@ -6,6 +6,7 @@ Short notes on useful things I've learned. Inspired by [@simonw](https://github.
 
 ## By date
 
+- [Get image dimensions at the command line](./macOS/2025-02-14-Get-image-dimensions-at-the-command-line.md) - 2025-02-14
 - [Getting started with Zig](./zig/2025-01-22-Getting-started-with-Zig.md) - 2025-01-22
 - [Lightweight multitenancy for server-side JS](./js/2025-01-18-Lightweight-multitenancy.md) - 2025-01-18
 - [Why silicon wafers are round](./concepts/2025-01-15-Why-silicon-wafers-are-round.md) - 2025-01-15
@@ -65,6 +66,11 @@ Short notes on useful things I've learned. Inspired by [@simonw](https://github.
 - [Source maps in Vite](./js/2024-01-25-Source-maps-in-Vite.md)
 - [Finding deoptimizations](./js/2023-11-23-Finding-deoptimizations.md)
 - [Debug options for JS libraries](./js/2023-11-14-Debug-options.md)
+
+### MacOS
+
+- [Get image dimensions at the command line (macOS)](./macOS/2025-02-14-Get-image-dimensions-at-the-command-line.md)
+
 
 ### Python
 
