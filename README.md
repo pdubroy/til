@@ -6,6 +6,7 @@ Short notes on useful things I've learned. Inspired by [@simonw](https://github.
 
 ## By date
 
+- [WebP is awesome](./webdev/2025-02-14-Webp-is-awesome.md) - 2025-02-14
 - [Get image dimensions at the command line](./macOS/2025-02-14-Get-image-dimensions-at-the-command-line.md) - 2025-02-14
 - [Getting started with Zig](./zig/2025-01-22-Getting-started-with-Zig.md) - 2025-01-22
 - [Lightweight multitenancy for server-side JS](./js/2025-01-18-Lightweight-multitenancy.md) - 2025-01-18
