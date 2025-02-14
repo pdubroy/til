@@ -37,3 +37,5 @@ Here's the command line I used to convert all images in a given directory:
 ```sh
 find . -name "*.png" -exec sh -c 'cwebp "$1" -o "${1%.png}.webp"' _ {} \;
 ```
+
+[ImageOptim]: https://imageoptim.com/mac
