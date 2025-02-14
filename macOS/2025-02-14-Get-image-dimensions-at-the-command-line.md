@@ -26,4 +26,4 @@ On macOS, you can use `sips -g pixelWidth -g pixelHeight` to get the dimensions:
 
 Very useful!
 
-See also Simon Willison's TIL on [sips: Scriptable image processing system](https://til.simonwillison.net/macos/sips).
+You can find more documentation on the [man page](https://ss64.com/mac/sips.html). See also Simon Willison's TIL: [sips: Scriptable image processing system](https://til.simonwillison.net/macos/sips).
