@@ -6,6 +6,7 @@ Short notes on useful things I've learned. Inspired by [@simonw](https://github.
 
 ## By date
 
+- [Castlemacs and Magit](./emacs/2025-02-21-Castlemacs-and-Magit.md) - 2025-02-21
 - [WebP is awesome](./webdev/2025-02-14-Webp-is-awesome.md) - 2025-02-14
 - [Get image dimensions at the command line](./macOS/2025-02-14-Get-image-dimensions-at-the-command-line.md) - 2025-02-14
 - [Getting started with Zig](./zig/2025-01-22-Getting-started-with-Zig.md) - 2025-01-22
@@ -49,6 +50,10 @@ Short notes on useful things I've learned. Inspired by [@simonw](https://github.
 - [Data race](./concepts/2024-02-17-Data-race.md)
 - [Pareto frontier](./concepts/2024-02-07-Pareto-frontier.md)
 
+### Emacs
+
+- [Castlemacs and Magit](./emacs/2025-02-21-Castlemacs-and-Magit.md)
+
 ### Geometry
 
 - [Curvature combs](./geometry/2024-05-23-Curvature-combs.ipynb)
@@ -70,7 +75,7 @@ Short notes on useful things I've learned. Inspired by [@simonw](https://github.
 
 ### MacOS
 
-- [Get image dimensions at the command line (macOS)](./macOS/2025-02-14-Get-image-dimensions-at-the-command-line.md)
+- [Get image dimensions at the command line](./macOS/2025-02-14-Get-image-dimensions-at-the-command-line.md)
 
 
 ### Python
@@ -92,6 +97,7 @@ Short notes on useful things I've learned. Inspired by [@simonw](https://github.
 
 ### Web dev
 
+- [WebP is awesome](./webdev/2025-02-14-Webp-is-awesome.md)
 - [Authentication in Playwright scripts](./webdev/2024-02-16-Authentication-in-Playwright-scripts.md)
 
 ### Zig
