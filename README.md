@@ -6,6 +6,7 @@ Short notes on useful things I've learned. Inspired by [@simonw](https://github.
 
 ## By date
 
+- [Styling for print](./webdev/2025-02-26-Styling-for-print.md) - 2025-02-26
 - [Castlemacs and Magit](./emacs/2025-02-21-Castlemacs-and-Magit.md) - 2025-02-21
 - [WebP is awesome](./webdev/2025-02-14-Webp-is-awesome.md) - 2025-02-14
 - [Get image dimensions at the command line](./macOS/2025-02-14-Get-image-dimensions-at-the-command-line.md) - 2025-02-14
@@ -97,6 +98,7 @@ Short notes on useful things I've learned. Inspired by [@simonw](https://github.
 
 ### Web dev
 
+- [Styling for print](./webdev/2025-02-26-Styling-for-print.md)
 - [WebP is awesome](./webdev/2025-02-14-Webp-is-awesome.md)
 - [Authentication in Playwright scripts](./webdev/2024-02-16-Authentication-in-Playwright-scripts.md)
 
