@@ -6,6 +6,7 @@ Short notes on useful things I've learned. Inspired by [@simonw](https://github.
 
 ## By date
 
+- [Cookie banners](./legal/2025-03-08-Cookie-banners.md) - 2025-03-08
 - [Styling for print](./webdev/2025-02-26-Styling-for-print.md) - 2025-02-26
 - [Castlemacs and Magit](./emacs/2025-02-21-Castlemacs-and-Magit.md) - 2025-02-21
 - [WebP is awesome](./webdev/2025-02-14-Webp-is-awesome.md) - 2025-02-14
@@ -73,6 +74,10 @@ Short notes on useful things I've learned. Inspired by [@simonw](https://github.
 - [Source maps in Vite](./js/2024-01-25-Source-maps-in-Vite.md)
 - [Finding deoptimizations](./js/2023-11-23-Finding-deoptimizations.md)
 - [Debug options for JS libraries](./js/2023-11-14-Debug-options.md)
+
+### Legal
+
+- [Cookie banners](./legal/2025-03-08-Cookie-banners.md)
 
 ### MacOS
 
