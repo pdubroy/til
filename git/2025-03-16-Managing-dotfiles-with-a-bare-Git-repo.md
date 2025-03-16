@@ -5,20 +5,20 @@ I've never had a good system for keeping my dotfiles (config files) under versio
 I recently discovered a new approach that I like: a bare Git repo and a shell alias. It comes from an [HN comment by StreakyCobra](https://news.ycombinator.com/item?id=11070797):
 
 > I use:
-  ```
-  git init --bare $HOME/.myconf
-  alias config='/usr/bin/git --git-dir=$HOME/.myconf/ --work-tree=$HOME'
-  config config status.showUntrackedFiles no
-  ```
+> ```
+> git init --bare $HOME/.myconf
+> alias config='/usr/bin/git --git-dir=$HOME/.myconf/ --work-tree=$HOME'
+> config config status.showUntrackedFiles no
+> ```
 > where my ~/.myconf directory is a git bare repository. Then any file within the home folder can be versioned with normal commands like:
-  ```
-  config status
-  config add .vimrc
-  config commit -m "Add vimrc"
-  config add .config/redshift.conf
-  config commit -m "Add redshift config"
-  config push
-  ```
+> ```
+> config status
+> config add .vimrc
+> config commit -m "Add vimrc"
+> config add .config/redshift.conf
+> config commit -m "Add redshift config"
+> config push
+> ```
 > And so on…
 > No extra tooling, no symlinks, files are tracked on a version control system, you can use different branches for different computers, you can replicate you configuration easily on new installation.
 
