@@ -6,6 +6,7 @@ Short notes on useful things I've learned. Inspired by [@simonw](https://github.
 
 ## By date
 
+- [Managing dotfiles with a bare Git repo](./git/2025-03-16-Managing-dotfiles-with-a-bare-Git-repo.md) - 2025-03-16
 - [Cookie banners](./legal/2025-03-08-Cookie-banners.md) - 2025-03-08
 - [Styling for print](./webdev/2025-02-26-Styling-for-print.md) - 2025-02-26
 - [Castlemacs and Magit](./emacs/2025-02-21-Castlemacs-and-Magit.md) - 2025-02-21
@@ -60,6 +61,10 @@ Short notes on useful things I've learned. Inspired by [@simonw](https://github.
 
 - [Curvature combs](./geometry/2024-05-23-Curvature-combs.ipynb)
 
+### Git
+
+- [Managing dotfiles with a bare Git repo](./git/2025-03-16-Managing-dotfiles-with-a-bare-Git-repo.md)
+
 ### Gpu
 
 - [Debugging shaders](./gpu/2024-09-23-Debugging-shaders.md)
@@ -82,7 +87,6 @@ Short notes on useful things I've learned. Inspired by [@simonw](https://github.
 ### MacOS
 
 - [Get image dimensions at the command line](./macOS/2025-02-14-Get-image-dimensions-at-the-command-line.md)
-
 
 ### Python
 
