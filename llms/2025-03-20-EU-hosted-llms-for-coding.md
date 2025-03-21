@@ -16,17 +16,25 @@ Zed supports Mistral out of the box:
 
 For the chat ("Assistant Panel") and inline assistant (Ctrl-Enter), I think you want to use `mistral-large-latest`. AFAIK there's no easy way (yet) to use [Codestral](https://mistral.ai/news/codestral-2501) as an edit prediction provider.
 
-## Aider with DeepSeek V3 & R1 on Nebius
+## Aider with DeepSeek V3 & R1 on [Nebius](https://nebius.com/)
 
 I've been using [Aider](https://aider.chat/) as a replacement for Claude Code.
 
-[Nebius](https://nebius.com/) is a Dutch company (although they're listed on Nasdaq?) and they offer an API for DeepSeek V3 and R1 (supposedly comparable to OpenAI's 4o and o1, respectively) via their _AI Studio_ offering.
+Nebius is a Dutch company (although they're listed on Nasdaq?) and they offer an API for DeepSeek V3 and R1 (supposedly comparable to OpenAI's 4o and o1, respectively) via their _AI Studio_ offering.
 
 I was able to use these models with Aider by setting the following environment variables:
 
 ```
 set OPENAI_API_BASE="https://api.studio.nebius.com/v1/"
-set OPENAI_API_KEY="abcdefg123456" # Use your actual API key here
+set OPENAI_API_KEY="abcdefg123456" # <- Use your actual Nebius API key here
 ```
 
-and then running Aider with: `aider --model openai/deepseek-ai/DeepSeek-V3`.
+and then running Aider with:
+
+```
+aider --model openai/deepseek-ai/DeepSeek-V3
+```
+or
+```
+aider --model openai/deepseek-ai/DeepSeek-R1
+```
