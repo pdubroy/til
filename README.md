@@ -85,6 +85,10 @@ Short notes on useful things I've learned. Inspired by [@simonw](https://github.
 
 - [Cookie banners](./legal/2025-03-08-Cookie-banners.md)
 
+### Llms
+
+- [EU-hosted LLMs for coding](./llms/2025-03-20-EU-hosted-llms-for-coding.md)
+
 ### MacOS
 
 - [Get image dimensions at the command line](./macOS/2025-02-14-Get-image-dimensions-at-the-command-line.md)
