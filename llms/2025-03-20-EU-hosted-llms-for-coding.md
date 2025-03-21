@@ -20,7 +20,7 @@ For the chat ("Assistant Panel") and inline assistant (Ctrl-Enter), I think you 
 
 I've been using [Aider](https://aider.chat/) as a replacement for Claude Code.
 
-Nebius is a Dutch company (although they're listed on Nasdaq?) and they offer an API for DeepSeek V3 and R1 (supposedly comparable to OpenAI's 4o and o1, respectively) via their _AI Studio_ offering.
+Nebius is a Dutch company (although they're listed on Nasdaq?) and they offer an API for DeepSeek V3 and R1 (supposedly comparable to OpenAI's 4o and o1, respectively) via their [AI Studio](https://nebius.com/ai-studio) offering.
 
 I was able to use these models with Aider by setting the following environment variables:
 
