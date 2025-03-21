@@ -6,6 +6,7 @@ Short notes on useful things I've learned. Inspired by [@simonw](https://github.
 
 ## By date
 
+- [EU-hosted LLMs for coding](./llms/2025-03-20-EU-hosted-llms-for-coding.md) - 2025-03-20
 - [Managing dotfiles with a bare Git repo](./git/2025-03-16-Managing-dotfiles-with-a-bare-Git-repo.md) - 2025-03-16
 - [Cookie banners](./legal/2025-03-08-Cookie-banners.md) - 2025-03-08
 - [Styling for print](./webdev/2025-02-26-Styling-for-print.md) - 2025-02-26
