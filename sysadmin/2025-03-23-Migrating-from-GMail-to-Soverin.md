@@ -18,7 +18,7 @@ After that, I was able to connect to the Soverin IMAP server with Apple Mail. Th
 
 What didn't work was _sending_ email from Apple Mail. DNS for my domain is handled by Cloudflare, and I had replaced my old SPF record with the new one for Soverin. However, Apple Mail was giving an SPF error when I tried to send an email from my account.
 
-I tried the [EasyDMARC SPF Checker](https://easydmarc.com/tools/spf-lookup), and it gave an error related to the quotation marks. It turns out that the Cloudflare UI [automatically adds quotation marks around TXT records](https://community.cloudflare.com/t/cant-remove-quotes-from-txt-record/737786). And apparently this was causing problems with Soverin's SPF check.
+I tried the [EasyDMARC SPF Checker](https://easydmarc.com/tools/spf-lookup), and it gave an error related to the quotation marks. It turns out that [the Cloudflare UI automatically adds quotation marks around TXT records](https://community.cloudflare.com/t/cant-remove-quotes-from-txt-record/737786). And apparently this was causing problems with Soverin's SPF check.
 
 The workaround I found is to create the record via the API. I created a new API token, and [found the zone ID](https://developers.cloudflare.com/fundamentals/setup/find-account-and-zone-ids/). I put both of these into environment variables and then ran the following:
 
