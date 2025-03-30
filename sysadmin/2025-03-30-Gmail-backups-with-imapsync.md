@@ -1,6 +1,8 @@
 # Gmail backups with imapsync
 
-I recently realized that I had ~18 years of email stored in Gmail, with no backup. This week I fixed that, using imapsync to backup up the entire contents of my Gmail (~10GB) to [mailbox.org](https://mailbox.org/).
+I recently realized that I had ~18 years of email stored in Gmail, with no backup. This week I fixed that, using [imapsync][] to backup up the entire contents of my Gmail (~10GB) to [mailbox.org](https://mailbox.org/).
+
+[imapsync]: https://imapsync.lamiral.info/
 
 The imapsync documentation is great, but it took me a few tries to find all the right flags for my use case. Here's what I ended up with:
 
