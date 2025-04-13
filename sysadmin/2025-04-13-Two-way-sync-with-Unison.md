@@ -9,7 +9,7 @@ Usually when I want to sync things between machines (e.g., for backup) I'd use `
 On my Mac, I installed it with Homebrew:
 
 ```
-brew install nnison
+brew install unison
 ```
 
 On the server:
