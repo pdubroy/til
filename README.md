@@ -6,6 +6,7 @@ Short notes on useful things I've learned. Inspired by [@simonw](https://github.
 
 ## By date
 
+- [Two-way sync with Unison](./sysadmin/2025-04-13-Two-way-sync-with-Unison.md) - 2025-04-13
 - [Managing a Bunny CDN config with Terraform](./sysadmin/2025-04-06-Managing-a-Bunny-CDN-config-with-Terraform.md) - 2025-04-06
 - [Gmail backups with imapsync](./sysadmin/2025-03-30-Gmail-backups-with-imapsync.md) - 2025-03-30
 - [Migrating from GMail to Soverin](./sysadmin/2025-03-23-Migrating-from-GMail-to-Soverin.md) - 2025-03-23
@@ -111,6 +112,7 @@ Short notes on useful things I've learned. Inspired by [@simonw](https://github.
 
 ### Sysadmin
 
+- [Two-way sync with Unison](./sysadmin/2025-04-13-Two-way-sync-with-Unison.md)
 - [Managing a Bunny CDN config with Terraform](./sysadmin/2025-04-06-Managing-a-Bunny-CDN-config-with-Terraform.md)
 - [Gmail backups with imapsync](./sysadmin/2025-03-30-Gmail-backups-with-imapsync.md)
 - [Migrating from GMail to Soverin](./sysadmin/2025-03-23-Migrating-from-GMail-to-Soverin.md)
