@@ -6,6 +6,7 @@ Short notes on useful things I've learned. Inspired by [@simonw](https://github.
 
 ## By date
 
+- [Backups with Borg and borgmatic](./sysadmin/2025-04-20-Backups-with-borg-and-borgmatic.md) - 2025-04-20
 - [Two-way sync with Unison](./sysadmin/2025-04-13-Two-way-sync-with-Unison.md) - 2025-04-13
 - [Managing a Bunny CDN config with Terraform](./sysadmin/2025-04-06-Managing-a-Bunny-CDN-config-with-Terraform.md) - 2025-04-06
 - [Gmail backups with imapsync](./sysadmin/2025-03-30-Gmail-backups-with-imapsync.md) - 2025-03-30
@@ -112,6 +113,7 @@ Short notes on useful things I've learned. Inspired by [@simonw](https://github.
 
 ### Sysadmin
 
+- [Backups with Borg and borgmatic](./sysadmin/2025-04-20-Backups-with-borg-and-borgmatic.md)
 - [Two-way sync with Unison](./sysadmin/2025-04-13-Two-way-sync-with-Unison.md)
 - [Managing a Bunny CDN config with Terraform](./sysadmin/2025-04-06-Managing-a-Bunny-CDN-config-with-Terraform.md)
 - [Gmail backups with imapsync](./sysadmin/2025-03-30-Gmail-backups-with-imapsync.md)
