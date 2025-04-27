@@ -6,6 +6,7 @@ Short notes on useful things I've learned. Inspired by [@simonw](https://github.
 
 ## By date
 
+- [logrotate](./sysadmin/2025-04-27-Logrotate.md) - 2025-04-27
 - [Backups with Borg and borgmatic](./sysadmin/2025-04-20-Backups-with-borg-and-borgmatic.md) - 2025-04-20
 - [Two-way sync with Unison](./sysadmin/2025-04-13-Two-way-sync-with-Unison.md) - 2025-04-13
 - [Managing a Bunny CDN config with Terraform](./sysadmin/2025-04-06-Managing-a-Bunny-CDN-config-with-Terraform.md) - 2025-04-06
@@ -113,6 +114,7 @@ Short notes on useful things I've learned. Inspired by [@simonw](https://github.
 
 ### Sysadmin
 
+- [logrotate](./sysadmin/2025-04-27-Logrotate.md)
 - [Backups with Borg and borgmatic](./sysadmin/2025-04-20-Backups-with-borg-and-borgmatic.md)
 - [Two-way sync with Unison](./sysadmin/2025-04-13-Two-way-sync-with-Unison.md)
 - [Managing a Bunny CDN config with Terraform](./sysadmin/2025-04-06-Managing-a-Bunny-CDN-config-with-Terraform.md)
