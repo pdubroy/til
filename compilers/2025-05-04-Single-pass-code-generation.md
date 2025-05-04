@@ -1,4 +1,4 @@
-# Single-pass Codegen
+# Single-pass code generation
 
 Most of the compilers I've written are quite simple. Sometimes they're explicitly toys (e.g. for [Two little interpreters](https://dubroy.com/blog/two-little-interpreters/)), and other times, the situation just didn't call for anything complex.
 

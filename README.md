@@ -6,7 +6,7 @@ Short notes on useful things I've learned. Inspired by [@simonw](https://github.
 
 ## By date
 
-- [Single-pass Codegen](./compilers/2025-05-04-Single-pass-codegen.md) - 2025-05-04
+- [Single-pass code generation](./compilers/2025-05-04-Single-pass-code-generation.md) - 2025-05-04
 - [logrotate](./sysadmin/2025-04-27-Logrotate.md) - 2025-04-27
 - [Backups with Borg and borgmatic](./sysadmin/2025-04-20-Backups-with-borg-and-borgmatic.md) - 2025-04-20
 - [Two-way sync with Unison](./sysadmin/2025-04-13-Two-way-sync-with-Unison.md) - 2025-04-13
@@ -55,7 +55,7 @@ Short notes on useful things I've learned. Inspired by [@simonw](https://github.
 
 ### Compilers
 
-- [Single-pass Codegen](./compilers/2025-05-04-Single-pass-codegen.md)
+- [Single-pass code generation](./compilers/2025-05-04-Single-pass-code-generation.md)
 
 ### Concepts
 
