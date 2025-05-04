@@ -24,3 +24,35 @@ This is another approach I learned about. The best description I found from Max 
 > The key insight is that in a recursive code generator, the caller of the recursive compilation step knows where it wants the result of the callee to go — so we should not be copying everything around through some result register like RAX. We should instead pass the destination we want as a parameter.
 
 So, while delayed code generation involves information flowing _up_ the tree — from operands to operators — DDCG involves passing information _down_.
+
+## Peephole optimization
+
+Another trick is to do peephole optimization in the `emit` methods. In other words, the optimization is done incrementally, rather than as a separate pass.
+
+E.g., here's [an example from the Lua bytecode compiler](https://github.com/lua/lua/blob/3dbb1a4b894c0744a331d4319d8d1704dc4ad943/lcode.c#L122C1-L144C2):
+
+```c
+/*
+** Create a OP_LOADNIL instruction, but try to optimize: if the previous
+** instruction is also OP_LOADNIL and ranges are compatible, adjust
+** range of previous instruction instead of emitting a new one. (For
+** instance, 'local a; local b' will generate a single opcode.)
+*/
+void luaK_nil (FuncState *fs, int from, int n) {
+  int l = from + n - 1;  /* last register to set nil */
+  Instruction *previous = previousinstruction(fs);
+  if (GET_OPCODE(*previous) == OP_LOADNIL) {  /* previous is LOADNIL? */
+    int pfrom = GETARG_A(*previous);  /* get previous range */
+    int pl = pfrom + GETARG_B(*previous);
+    if ((pfrom <= from && from <= pl + 1) ||
+        (from <= pfrom && pfrom <= l + 1)) {  /* can connect both? */
+      if (pfrom < from) from = pfrom;  /* from = min(from, pfrom) */
+      if (pl > l) l = pl;  /* l = max(l, pl) */
+      SETARG_A(*previous, from);
+      SETARG_B(*previous, l - from);
+      return;
+    }  /* else go through */
+  }
+  luaK_codeABC(fs, OP_LOADNIL, from, n - 1, 0);  /* else no optimization */
+}
+```
