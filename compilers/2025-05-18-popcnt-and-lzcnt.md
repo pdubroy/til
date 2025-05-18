@@ -7,7 +7,7 @@ This week I was working on [some WebAssembly code involving math on powers of tw
 - [`popcnt`](https://www.felixcloutier.com/x86/popcnt) (short for "population count") counts the number of non-zero bits in the binary representation of a number. Wasm has `i32.popcnt`, `i64.popcnt`, and the SIMD instruction `i8x16.popcnt`.
 - [`lzcnt`](https://www.felixcloutier.com/x86/lzcnt) counts the number of leading zero bits (_leading_ meaning "most signficant"). Wasm has `i32.clz` and `i64.clz`.
 
-## Triva
+## Trivia
 
 I wondered why I'd never encountered the x86 instructions before. Turns out that they are somewhat recent (depending on your definition of recent anyways) — `popcnt` was first supported by Intel in 2008, and `lzcnt` in 2013.
 
