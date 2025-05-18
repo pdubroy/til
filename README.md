@@ -6,6 +6,7 @@ Short notes on useful things I've learned. Inspired by [@simonw](https://github.
 
 ## By date
 
+- [The `popcnt` and `lzcnt` instructions](./compilers/2025-05-18-popcnt-and-lzcnt.md) - 2025-05-18
 - [Single-pass code generation](./compilers/2025-05-04-Single-pass-code-generation.md) - 2025-05-04
 - [logrotate](./sysadmin/2025-04-27-Logrotate.md) - 2025-04-27
 - [Backups with Borg and borgmatic](./sysadmin/2025-04-20-Backups-with-borg-and-borgmatic.md) - 2025-04-20
@@ -55,6 +56,7 @@ Short notes on useful things I've learned. Inspired by [@simonw](https://github.
 
 ### Compilers
 
+- [The `popcnt` and `lzcnt` instructions](./compilers/2025-05-18-popcnt-and-lzcnt.md)
 - [Single-pass code generation](./compilers/2025-05-04-Single-pass-code-generation.md)
 
 ### Concepts
