@@ -6,6 +6,7 @@ Short notes on useful things I've learned. Inspired by [@simonw](https://github.
 
 ## By date
 
+- [binaryen.js](./compilers/2025-05-25-binaryen.js.md) - 2025-05-25
 - [The `popcnt` and `lzcnt` instructions](./compilers/2025-05-18-popcnt-and-lzcnt.md) - 2025-05-18
 - [Single-pass code generation](./compilers/2025-05-04-Single-pass-code-generation.md) - 2025-05-04
 - [logrotate](./sysadmin/2025-04-27-Logrotate.md) - 2025-04-27
@@ -56,6 +57,7 @@ Short notes on useful things I've learned. Inspired by [@simonw](https://github.
 
 ### Compilers
 
+- [binaryen.js](./compilers/2025-05-25-binaryen.js.md)
 - [The `popcnt` and `lzcnt` instructions](./compilers/2025-05-18-popcnt-and-lzcnt.md)
 - [Single-pass code generation](./compilers/2025-05-04-Single-pass-code-generation.md)
 
