@@ -6,6 +6,7 @@ Short notes on useful things I've learned. Inspired by [@simonw](https://github.
 
 ## By date
 
+- [Zig shadowing and builtins](./zig/2025-06-08-Zig-shadowing-and-builtins.md) - 2025-06-08
 - [binaryen.js](./compilers/2025-05-25-binaryen.js.md) - 2025-05-25
 - [The `popcnt` and `lzcnt` instructions](./compilers/2025-05-18-popcnt-and-lzcnt.md) - 2025-05-18
 - [Single-pass code generation](./compilers/2025-05-04-Single-pass-code-generation.md) - 2025-05-04
@@ -142,4 +143,5 @@ Short notes on useful things I've learned. Inspired by [@simonw](https://github.
 
 ### Zig
 
+- [Zig shadowing and builtins](./zig/2025-06-08-Zig-shadowing-and-builtins.md)
 - [Getting started with Zig](./zig/2025-01-22-Getting-started-with-Zig.md)
