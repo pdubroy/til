@@ -6,6 +6,7 @@ Short notes on useful things I've learned. Inspired by [@simonw](https://github.
 
 ## By date
 
+- [Debug Adapter Protocol](./misc/2025-06-22-debug-adapter-protocol.md) - 2025-06-22
 - [Zig shadowing and builtins](./zig/2025-06-08-Zig-shadowing-and-builtins.md) - 2025-06-08
 - [binaryen.js](./compilers/2025-05-25-binaryen.js.md) - 2025-05-25
 - [The `popcnt` and `lzcnt` instructions](./compilers/2025-05-18-popcnt-and-lzcnt.md) - 2025-05-18
@@ -108,6 +109,10 @@ Short notes on useful things I've learned. Inspired by [@simonw](https://github.
 ### MacOS
 
 - [Get image dimensions at the command line](./macOS/2025-02-14-Get-image-dimensions-at-the-command-line.md)
+
+### Misc
+
+- [Debug Adapter Protocol](./misc/2025-06-22-debug-adapter-protocol.md)
 
 ### Python
 
