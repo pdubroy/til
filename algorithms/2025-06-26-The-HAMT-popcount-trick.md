@@ -1,6 +1,6 @@
 # The HAMT popcount trick
 
-I first heard of the [_hash array mapped trie_](https://en.wikipedia.org/wiki/Hash_array_mapped_trie) (HAMT) in the context of persistent data structures. Recently, I've been looking at how they are implemented. One neat thing is the technique used to store a sparse array in a space-efficient way, which took me a while to grok.
+I first heard of the [hash array mapped trie](https://en.wikipedia.org/wiki/Hash_array_mapped_trie) (HAMT) in the context of persistent data structures. Recently, I've been looking at how they are implemented. One neat thing is the technique used to store a sparse array in a space-efficient way, which took me a while to grok.
 
 Suppose you want to store a mapping `byte -> int32`; assume that keys can be between 0..31 and that there are no collisions. You could store it densely, as an array of thirty two 32-bit values (128 bytes total). But, if the map will be mostly empty, a lot of that space is wasted.
 
