@@ -6,6 +6,7 @@ Short notes on useful things I've learned. Inspired by [@simonw](https://github.
 
 ## By date
 
+- [V8 Pointer tagging](./compilers/2025-07-11-v8-pointer-tagging.md) - 2025-07-11
 - [The HAMT popcount trick](./algorithms/2025-06-26-The-HAMT-popcount-trick.md) - 2025-06-26
 - [Debug Adapter Protocol](./misc/2025-06-22-debug-adapter-protocol.md) - 2025-06-22
 - [Zig shadowing and builtins](./zig/2025-06-08-Zig-shadowing-and-builtins.md) - 2025-06-08
@@ -61,6 +62,7 @@ Short notes on useful things I've learned. Inspired by [@simonw](https://github.
 
 ### Compilers
 
+- [V8 Pointer tagging](./compilers/2025-07-11-v8-pointer-tagging.md)
 - [binaryen.js](./compilers/2025-05-25-binaryen.js.md)
 - [The `popcnt` and `lzcnt` instructions](./compilers/2025-05-18-popcnt-and-lzcnt.md)
 - [Single-pass code generation](./compilers/2025-05-04-Single-pass-code-generation.md)
