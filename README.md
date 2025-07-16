@@ -6,6 +6,7 @@ Short notes on useful things I've learned. Inspired by [@simonw](https://github.
 
 ## By date
 
+- [Exponentially-segmented arrays](./algorithms/2025-07-16-Exponentially-segmented-arrays.md) - 2025-07-16
 - [V8 Pointer tagging](./compilers/2025-07-11-v8-pointer-tagging.md) - 2025-07-11
 - [The HAMT popcount trick](./algorithms/2025-06-26-The-HAMT-popcount-trick.md) - 2025-06-26
 - [Debug Adapter Protocol](./misc/2025-06-22-debug-adapter-protocol.md) - 2025-06-22
@@ -57,6 +58,7 @@ Short notes on useful things I've learned. Inspired by [@simonw](https://github.
 
 ### Algorithms
 
+- [Exponentially-segmented arrays](./algorithms/2025-07-16-Exponentially-segmented-arrays.md)
 - [The HAMT popcount trick](./algorithms/2025-06-26-The-HAMT-popcount-trick.md)
 - [Box blur](./algorithms/2024-06-30-Box-blur.ipynb)
 
