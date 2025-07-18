@@ -6,6 +6,7 @@ Short notes on useful things I've learned. Inspired by [@simonw](https://github.
 
 ## By date
 
+- [Collective action problem](./concepts/2025-07-18-Collective-action-problem.md) - 2025-07-18
 - [Exponentially-segmented arrays](./algorithms/2025-07-16-Exponentially-segmented-arrays.md) - 2025-07-16
 - [V8 Pointer tagging](./compilers/2025-07-11-v8-pointer-tagging.md) - 2025-07-11
 - [The HAMT popcount trick](./algorithms/2025-06-26-The-HAMT-popcount-trick.md) - 2025-06-26
@@ -71,6 +72,7 @@ Short notes on useful things I've learned. Inspired by [@simonw](https://github.
 
 ### Concepts
 
+- [Collective action problem](./concepts/2025-07-18-Collective-action-problem.md)
 - [Why silicon wafers are round](./concepts/2025-01-15-Why-silicon-wafers-are-round.md)
 - [Corner plot](./concepts/2024-05-10-Corner-plot.md)
 - [Simplex](./concepts/2024-04-28-Simplex.md)
