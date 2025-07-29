@@ -106,7 +106,7 @@ const sameFailurePos = (t, wasmMatcher) =>
 
 The last step was to use fast-check's `verbose` and `includeErrorInReport` options:
 
-```
+```js
 test('failure pos (fast-check)', async t => {
   const m = await wasmMatcherForGrammar(ns.LiquidHTML);
   t.notThrows(() => fc.assert(sameFailurePos(t, m), {verbose, includeErrorInReport: true}));
