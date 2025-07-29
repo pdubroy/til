@@ -6,6 +6,7 @@ Short notes on useful things I've learned. Inspired by [@simonw](https://github.
 
 ## By date
 
+- [Better fast-check error messages](./js/2025-07-28-Better-fast-check-error-messages.md) - 2025-07-28
 - [Property-based tests with fast-check](./js/2025-07-27-Property-based-tests-with-fast-check.md) - 2025-07-27
 - [Collective action problem](./concepts/2025-07-18-Collective-action-problem.md) - 2025-07-18
 - [Exponentially-segmented arrays](./algorithms/2025-07-16-Exponentially-segmented-arrays.md) - 2025-07-16
@@ -99,6 +100,7 @@ Short notes on useful things I've learned. Inspired by [@simonw](https://github.
 
 ### JavaScript
 
+- [Better fast-check error messages](./js/2025-07-28-Better-fast-check-error-messages.md)
 - [Property-based tests with fast-check](./js/2025-07-27-Property-based-tests-with-fast-check.md)
 - [Lightweight multitenancy for server-side JS](./js/2025-01-18-Lightweight-multitenancy.md)
 - [Longer V8 stack traces](./js/2024-11-22-Longer-Node-stack-traces.md)

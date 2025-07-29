@@ -1,6 +1,6 @@
 # Property-based tests with fast-check
 
-I've been aware of [property-based testing]() for a long time, but had never found the opportunity to use it — until this week.
+I've been aware of [property-based testing](https://en.wikipedia.org/wiki/Property_testing) for a long time, but had never found the opportunity to use it — until this week.
 
 I'm working on adding WebAssembly support to [Ohm](https://ohmjs.org), which involves a reimplementation of Ohm's core PEG parsing code. This week I was working on tracking the error position, so that when the parse fails, you can tell the user where the error occurred. I decided to write some property-based tests to make sure  the Wasm code reported the same error position as the JS implementation.
 
