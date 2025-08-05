@@ -1,6 +1,6 @@
 # Wasm modules in Node
 
-Node 24.5.0, which was released a few days ago, now supports Wasm modules out of the box! (Previously, it was available under the `--experimental-wasm-modules` flag.)
+Node 24.5.0, which was [released last week](https://nodejs.org/en/blog/release/v24.5.0), now supports Wasm modules out of the box! (Previously, it was available under the `--experimental-wasm-modules` flag.)
 
 ## Example
 
