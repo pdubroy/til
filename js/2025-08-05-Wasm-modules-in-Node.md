@@ -42,4 +42,4 @@ What about imports? Node will handle those transparently, by trying to import a 
 
 Imports in WebAssembly always have a _module name_ (`"./log.js"`) and an _item name_ (`"log2"`). Conveniently, these can be mapped directly to ES modules — so we can import this module just like before, and it will just work.
 
-_ps - If messing around with JavaScript and Wasm sounds like fun, you should check out [WebAssembly from the Ground Up](https://wasmgroundup.com)._
+_ps - If messing around with JavaScript and Wasm sounds like fun, you should check out my book [WebAssembly from the Ground Up](https://wasmgroundup.com)._
