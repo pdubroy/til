@@ -6,6 +6,7 @@ Short notes on useful things I've learned. Inspired by [@simonw](https://github.
 
 ## By date
 
+- [Wasm modules in Node](./js/2025-08-05-Wasm-modules-in-Node.md) - 2025-08-05
 - [Sticky regexes and the `lastIndex` property](./js/2025-07-30-Sticky-regexes-and-the-lastIndex-property.md) - 2025-07-30
 - [Better fast-check error messages](./js/2025-07-28-Better-fast-check-error-messages.md) - 2025-07-28
 - [Property-based tests with fast-check](./js/2025-07-27-Property-based-tests-with-fast-check.md) - 2025-07-27
@@ -101,6 +102,7 @@ Short notes on useful things I've learned. Inspired by [@simonw](https://github.
 
 ### JavaScript
 
+- [Wasm modules in Node](./js/2025-08-05-Wasm-modules-in-Node.md)
 - [Sticky regexes and the `lastIndex` property](./js/2025-07-30-Sticky-regexes-and-the-lastIndex-property.md)
 - [Better fast-check error messages](./js/2025-07-28-Better-fast-check-error-messages.md)
 - [Property-based tests with fast-check](./js/2025-07-27-Property-based-tests-with-fast-check.md)
