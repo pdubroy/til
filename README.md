@@ -6,6 +6,7 @@ Short notes on useful things I've learned. Inspired by [@simonw](https://github.
 
 ## By date
 
+- [Blender](./misc/2025-08-21-Blender.md) - 2025-08-21
 - [Wasm modules in Node](./js/2025-08-05-Wasm-modules-in-Node.md) - 2025-08-05
 - [Sticky regexes and the `lastIndex` property](./js/2025-07-30-Sticky-regexes-and-the-lastIndex-property.md) - 2025-07-30
 - [Better fast-check error messages](./js/2025-07-28-Better-fast-check-error-messages.md) - 2025-07-28
@@ -128,6 +129,7 @@ Short notes on useful things I've learned. Inspired by [@simonw](https://github.
 
 ### Misc
 
+- [Blender](./misc/2025-08-21-Blender.md)
 - [Debug Adapter Protocol](./misc/2025-06-22-debug-adapter-protocol.md)
 
 ### Python
