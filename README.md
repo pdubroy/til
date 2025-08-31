@@ -6,6 +6,7 @@ Short notes on useful things I've learned. Inspired by [@simonw](https://github.
 
 ## By date
 
+- [Absolute references in spreadsheets](./misc/2025-08-31-Absolute-references-in-spreadsheets.md) - 2025-08-31
 - [Blender](./misc/2025-08-21-Blender.md) - 2025-08-21
 - [Wasm modules in Node](./js/2025-08-05-Wasm-modules-in-Node.md) - 2025-08-05
 - [Sticky regexes and the `lastIndex` property](./js/2025-07-30-Sticky-regexes-and-the-lastIndex-property.md) - 2025-07-30
@@ -129,6 +130,7 @@ Short notes on useful things I've learned. Inspired by [@simonw](https://github.
 
 ### Misc
 
+- [Absolute references in spreadsheets](./misc/2025-08-31-Absolute-references-in-spreadsheets.md)
 - [Blender](./misc/2025-08-21-Blender.md)
 - [Debug Adapter Protocol](./misc/2025-06-22-debug-adapter-protocol.md)
 
