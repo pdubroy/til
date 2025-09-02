@@ -6,6 +6,7 @@ Short notes on useful things I've learned. Inspired by [@simonw](https://github.
 
 ## By date
 
+- [`uv run`](./python/2025-09-02-uv-run.md) - 2025-09-02
 - [Absolute references in spreadsheets](./misc/2025-08-31-Absolute-references-in-spreadsheets.md) - 2025-08-31
 - [Blender](./misc/2025-08-21-Blender.md) - 2025-08-21
 - [Wasm modules in Node](./js/2025-08-05-Wasm-modules-in-Node.md) - 2025-08-05
@@ -136,6 +137,7 @@ Short notes on useful things I've learned. Inspired by [@simonw](https://github.
 
 ### Python
 
+- [`uv run`](./python/2025-09-02-uv-run.md)
 - [Scripting GMail with Python](./python/2025-01-07-scripting-GMail.md)
 - [Installing Python type stubs](./python/2024-07-17-installing-Python-type-stubs.md)
 - [PyScript](./python/2024-07-01-PyScript.md)
