@@ -13,6 +13,11 @@ const topicTitleByDir = {
 const topicTitle = (dir) =>
   topicTitleByDir[dir] ?? dir.charAt(0).toUpperCase() + dir.slice(1);
 
+function checkNotNull(x, msg = "Unexpected null value") {
+  if (x == null) throw new Error(msg);
+  return x;
+}
+
 function traverseDir(dir) {
   const files = fs.readdirSync(dir);
   files.forEach((file) => {
@@ -26,7 +31,8 @@ function traverseDir(dir) {
       file !== "README.md"
     ) {
       const cat = path.basename(dir);
-      const date = file.match(/(\d{4}-\d{2}-\d{2})/)[0];
+      const matchArr = checkNotNull(file.match(/(\d{4}-\d{2}-\d{2})/), `Match failed: ${file}`);
+      const date = matchArr[0];
       let title = file
         .slice(date.length + 1)
         .replace("-", " ")

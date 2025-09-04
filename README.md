@@ -6,6 +6,7 @@ Short notes on useful things I've learned. Inspired by [@simonw](https://github.
 
 ## By date
 
+- [Git exclude](./git/2025-09-04-Git-exclude.md) - 2025-09-04
 - [`uv run`](./python/2025-09-02-uv-run.md) - 2025-09-02
 - [Absolute references in spreadsheets](./misc/2025-08-31-Absolute-references-in-spreadsheets.md) - 2025-08-31
 - [Blender](./misc/2025-08-21-Blender.md) - 2025-08-21
@@ -96,6 +97,7 @@ Short notes on useful things I've learned. Inspired by [@simonw](https://github.
 
 ### Git
 
+- [Git exclude](./git/2025-09-04-Git-exclude.md)
 - [Managing dotfiles with a bare Git repo](./git/2025-03-16-Managing-dotfiles-with-a-bare-Git-repo.md)
 
 ### Gpu
