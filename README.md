@@ -6,6 +6,7 @@ Short notes on useful things I've learned. Inspired by [@simonw](https://github.
 
 ## By date
 
+- [`publishConfig` in package.json](./js/2025-09-08-package-json-publishConfig.md) - 2025-09-08
 - [Git exclude](./git/2025-09-04-Git-exclude.md) - 2025-09-04
 - [`uv run`](./python/2025-09-02-uv-run.md) - 2025-09-02
 - [Absolute references in spreadsheets](./misc/2025-08-31-Absolute-references-in-spreadsheets.md) - 2025-08-31
@@ -107,6 +108,7 @@ Short notes on useful things I've learned. Inspired by [@simonw](https://github.
 
 ### JavaScript
 
+- [`publishConfig` in package.json](./js/2025-09-08-package-json-publishConfig.md)
 - [Wasm modules in Node](./js/2025-08-05-Wasm-modules-in-Node.md)
 - [Sticky regexes and the `lastIndex` property](./js/2025-07-30-Sticky-regexes-and-the-lastIndex-property.md)
 - [Better fast-check error messages](./js/2025-07-28-Better-fast-check-error-messages.md)
