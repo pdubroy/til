@@ -6,7 +6,7 @@ I'm a big fan of using tools like prettier and eslint to keep coding style consi
 
 Recently, I noticed that running `pnpm format` in the [Ohm repo](https://github.com/ohmjs/ohm) took over 4 seconds to format and lint everything, which is way. too. long. With a few small changes, I was able to get it down to under a second.
 
-## prettier -> biome
+## prettier → biome
 
 The first step was to replace prettier with [biome](https://biomejs.dev). This was easy:
 
