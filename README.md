@@ -6,6 +6,7 @@ Short notes on useful things I've learned. Inspired by [@simonw](https://github.
 
 ## By date
 
+- [FinalizationRegistry](./js/2025-09-25-FinalizationRegistry.md) - 2025-09-25
 - [Faster formatting and linting](./js/2025-09-17-Faster-formatting-and-linting.md) - 2025-09-17
 - [Lightweight TypeScript support in Node](./js/2025-09-09-Lightweight-TypeScript-support-in-Node.md) - 2025-09-09
 - [`publishConfig` in package.json](./js/2025-09-08-package-json-publishConfig.md) - 2025-09-08
@@ -110,6 +111,7 @@ Short notes on useful things I've learned. Inspired by [@simonw](https://github.
 
 ### JavaScript
 
+- [FinalizationRegistry](./js/2025-09-25-FinalizationRegistry.md)
 - [Faster formatting and linting](./js/2025-09-17-Faster-formatting-and-linting.md)
 - [Lightweight TypeScript support in Node](./js/2025-09-09-Lightweight-TypeScript-support-in-Node.md)
 - [`publishConfig` in package.json](./js/2025-09-08-package-json-publishConfig.md)
