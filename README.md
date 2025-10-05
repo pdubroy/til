@@ -6,6 +6,7 @@ Short notes on useful things I've learned. Inspired by [@simonw](https://github.
 
 ## By date
 
+- [WebAssembly library initialization patterns](./js/2025-10-05-WebAssembly-library-initialization-patterns.md) - 2025-10-05
 - [FinalizationRegistry](./js/2025-09-25-FinalizationRegistry.md) - 2025-09-25
 - [Faster formatting and linting](./js/2025-09-17-Faster-formatting-and-linting.md) - 2025-09-17
 - [Lightweight TypeScript support in Node](./js/2025-09-09-Lightweight-TypeScript-support-in-Node.md) - 2025-09-09
@@ -111,6 +112,7 @@ Short notes on useful things I've learned. Inspired by [@simonw](https://github.
 
 ### JavaScript
 
+- [WebAssembly library initialization patterns](./js/2025-10-05-WebAssembly-library-initialization-patterns.md)
 - [FinalizationRegistry](./js/2025-09-25-FinalizationRegistry.md)
 - [Faster formatting and linting](./js/2025-09-17-Faster-formatting-and-linting.md)
 - [Lightweight TypeScript support in Node](./js/2025-09-09-Lightweight-TypeScript-support-in-Node.md)
