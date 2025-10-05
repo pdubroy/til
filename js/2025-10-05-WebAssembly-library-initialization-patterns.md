@@ -91,7 +91,7 @@ const { add } = wasmInstance;
 
 AFAIK, it has the same implications on module execution as an explicit top-level `await` does.
 
-## Sychronous instantiation
+## Synchronous instantiation
 
 A final option is to synchronously instantiate the module — either using Node's `readFileSync` to load from a file, or by embedding the module as base64:
 
