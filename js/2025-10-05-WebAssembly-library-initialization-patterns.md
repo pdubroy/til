@@ -5,7 +5,7 @@ I was curious how people are shipping WebAssembly as part of JavaScript librarie
 1. How to bundle or fetch the .wasm payload, which may be relatively large.
 2. How to deal with module instantiation, which is typically async.
 
-In this post, I'm only concerned with #2 — how to deal with async module instantion.
+In this post, I'm only concerned with #2 — how to deal with module instantion.
 
 ## Async factory function as default export
 
