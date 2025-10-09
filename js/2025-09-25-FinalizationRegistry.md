@@ -10,7 +10,10 @@ In some scenarios, you can use `try`/`finally` to ensure that the resources are 
 
 ## FinalizationRegistry
 
-A `FinalizationRegistry` lets you request a callback when a value is no longer referenced. It was added in ES2021, along with weak references (`WeakRef`). Here's how it works —
+A `FinalizationRegistry` lets you request a callback when a value is no longer referenced. It was added in ES2021[^1], along with weak references (`WeakRef`)[^2]. Here's how it works —
+
+[^1]: [caniuse: FinalizationRegistry](https://caniuse.com/mdn-javascript_builtins_finalizationregistry)
+[^2]: [caniuse: WeakRef](https://caniuse.com/mdn-javascript_builtins_weakref)
 
 First, you create the registry, specifying the callback to be called:
 

@@ -26,7 +26,7 @@ tex.doSomething();
 
 `[Symbol.dispose]()` will be called when `tex` goes out of scope. Unlike `FinalizationRegistry` — but just like a `finally` block — it's _guaranteed_ to be called, so you can depend on it (in environments that support it).
 
-It's currently supported in Chromium-based browsers, Node, and Firefox, but not yet in Safari. It's also been supported in TypeScript since v5.2, which was released in August 2023.
+It's currently supported in Chromium-based browsers, Node, and Firefox, but [not yet in Safari (as of 2025-10-09)](https://caniuse.com/mdn-javascript_statements_using). It's also been supported in TypeScript since v5.2, which was released in August 2023.
 
 ## Required dispose
 
