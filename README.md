@@ -6,6 +6,7 @@ Short notes on useful things I've learned. Inspired by [@simonw](https://github.
 
 ## By date
 
+- [Explicit resource management](./js/2025-10-09-Explicit-resource-management.md) - 2025-10-09
 - [WebAssembly library initialization patterns](./js/2025-10-05-WebAssembly-library-initialization-patterns.md) - 2025-10-05
 - [FinalizationRegistry](./js/2025-09-25-FinalizationRegistry.md) - 2025-09-25
 - [Faster formatting and linting](./js/2025-09-17-Faster-formatting-and-linting.md) - 2025-09-17
@@ -112,6 +113,7 @@ Short notes on useful things I've learned. Inspired by [@simonw](https://github.
 
 ### JavaScript
 
+- [Explicit resource management](./js/2025-10-09-Explicit-resource-management.md)
 - [WebAssembly library initialization patterns](./js/2025-10-05-WebAssembly-library-initialization-patterns.md)
 - [FinalizationRegistry](./js/2025-09-25-FinalizationRegistry.md)
 - [Faster formatting and linting](./js/2025-09-17-Faster-formatting-and-linting.md)
