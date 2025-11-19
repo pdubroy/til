@@ -34,6 +34,7 @@ usdToEur(usd(35)); // this works
 // `usdToEur(35)` fails to compiile:
 //   Argument of type 'number' is not assignable to parameter of type 'USD'.
 //    Type 'number' is not assignable to type '{ __brand: "USD"; }'.(2345)```
+```
 
 Note that this is purely in the type system — the runtime values are just numbers. As _Learning TypeScript_ puts it:
 
