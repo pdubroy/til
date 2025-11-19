@@ -6,6 +6,7 @@ Short notes on useful things I've learned. Inspired by [@simonw](https://github.
 
 ## By date
 
+- [Branded types in TypeScript](./js/2025-11-19-Branded-types-in-TypeScript.md) - 2025-11-19
 - [Explicit resource management](./js/2025-10-09-Explicit-resource-management.md) - 2025-10-09
 - [WebAssembly library initialization patterns](./js/2025-10-05-WebAssembly-library-initialization-patterns.md) - 2025-10-05
 - [FinalizationRegistry](./js/2025-09-25-FinalizationRegistry.md) - 2025-09-25
@@ -113,6 +114,7 @@ Short notes on useful things I've learned. Inspired by [@simonw](https://github.
 
 ### JavaScript
 
+- [Branded types in TypeScript](./js/2025-11-19-Branded-types-in-TypeScript.md)
 - [Explicit resource management](./js/2025-10-09-Explicit-resource-management.md)
 - [WebAssembly library initialization patterns](./js/2025-10-05-WebAssembly-library-initialization-patterns.md)
 - [FinalizationRegistry](./js/2025-09-25-FinalizationRegistry.md)
