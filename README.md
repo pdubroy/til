@@ -6,6 +6,7 @@ Short notes on useful things I've learned. Inspired by [@simonw](https://github.
 
 ## By date
 
+- [Monoid](./concepts/2025-12-07-Monoid.md) - 2025-12-07
 - [Printing V8 bytecode](./js/2025-12-03-Printing-V8-bytecode.md) - 2025-12-03
 - [Branded types in TypeScript](./js/2025-11-19-Branded-types-in-TypeScript.md) - 2025-11-19
 - [Explicit resource management](./js/2025-10-09-Explicit-resource-management.md) - 2025-10-09
@@ -88,6 +89,7 @@ Short notes on useful things I've learned. Inspired by [@simonw](https://github.
 
 ### Concepts
 
+- [Monoid](./concepts/2025-12-07-Monoid.md)
 - [Collective action problem](./concepts/2025-07-18-Collective-action-problem.md)
 - [Why silicon wafers are round](./concepts/2025-01-15-Why-silicon-wafers-are-round.md)
 - [Corner plot](./concepts/2024-05-10-Corner-plot.md)
