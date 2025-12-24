@@ -6,6 +6,7 @@ Short notes on useful things I've learned. Inspired by [@simonw](https://github.
 
 ## By date
 
+- [V8 Natives syntax](./js/2025-12-23-V8-Natives-syntax.md) - 2025-12-23
 - [Monoid](./concepts/2025-12-07-Monoid.md) - 2025-12-07
 - [Printing V8 bytecode](./js/2025-12-03-Printing-V8-bytecode.md) - 2025-12-03
 - [Branded types in TypeScript](./js/2025-11-19-Branded-types-in-TypeScript.md) - 2025-11-19
@@ -117,6 +118,7 @@ Short notes on useful things I've learned. Inspired by [@simonw](https://github.
 
 ### JavaScript
 
+- [V8 Natives syntax](./js/2025-12-23-V8-Natives-syntax.md)
 - [Printing V8 bytecode](./js/2025-12-03-Printing-V8-bytecode.md)
 - [Branded types in TypeScript](./js/2025-11-19-Branded-types-in-TypeScript.md)
 - [Explicit resource management](./js/2025-10-09-Explicit-resource-management.md)
