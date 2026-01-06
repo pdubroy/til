@@ -6,6 +6,7 @@ Short notes on useful things I've learned. Inspired by [@simonw](https://github.
 
 ## By date
 
+- [Protomaps and PMTiles](./geometry/2026-01-06-Protomaps-and-pmtiles.md) - 2026-01-06
 - [V8 Natives syntax](./js/2025-12-23-V8-Natives-syntax.md) - 2025-12-23
 - [Monoid](./concepts/2025-12-07-Monoid.md) - 2025-12-07
 - [Printing V8 bytecode](./js/2025-12-03-Printing-V8-bytecode.md) - 2025-12-03
@@ -104,6 +105,7 @@ Short notes on useful things I've learned. Inspired by [@simonw](https://github.
 
 ### Geometry
 
+- [Protomaps and PMTiles](./geometry/2026-01-06-Protomaps-and-pmtiles.md)
 - [Curvature combs](./geometry/2024-05-23-Curvature-combs.ipynb)
 
 ### Git
