@@ -6,6 +6,7 @@ Short notes on useful things I've learned. Inspired by [@simonw](https://github.
 
 ## By date
 
+- [One-liners for downloading media](./sysadmin/2026-01-10-One-liners-to-download-media.md) - 2026-01-10
 - [Protomaps and PMTiles](./geometry/2026-01-06-Protomaps-and-pmtiles.md) - 2026-01-06
 - [V8 Natives syntax](./js/2025-12-23-V8-Natives-syntax.md) - 2025-12-23
 - [Monoid](./concepts/2025-12-07-Monoid.md) - 2025-12-07
@@ -175,6 +176,7 @@ Short notes on useful things I've learned. Inspired by [@simonw](https://github.
 
 ### Sysadmin
 
+- [One-liners for downloading media](./sysadmin/2026-01-10-One-liners-to-download-media.md)
 - [logrotate](./sysadmin/2025-04-27-Logrotate.md)
 - [Backups with Borg and borgmatic](./sysadmin/2025-04-20-Backups-with-borg-and-borgmatic.md)
 - [Two-way sync with Unison](./sysadmin/2025-04-13-Two-way-sync-with-Unison.md)
