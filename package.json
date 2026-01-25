@@ -6,6 +6,7 @@
     "generate": "node scripts/generateIndex.js"
   },
   "devDependencies": {
+    "@humanwhocodes/crosspost": "^1.0.2",
     "prettier": "^3.2.5"
   }
 }

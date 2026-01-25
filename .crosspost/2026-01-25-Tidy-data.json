@@ -1,0 +1,5 @@
+{
+  "text": "TIL: Tidy Data\n→ https://github.com/pdubroy/til/blob/main/concepts/2026-01-25-Tidy-data.md",
+  "image": "2026-01-25-Tidy-data.png",
+  "alt": "On Friday I took the train from Munich to Brussels, and on the way there, converted my financial planning spreadsheet to a Python script using pandas. Now, on the way back home, I'm reading about siuba and dplyr, and I learned about Hadley Wickham's concept of Tidy Data:\n\nTidy data is a standard way of mapping the meaning of a dataset to its structure. A dataset is messy or tidy depending on how rows, columns and tables are matched up with observations, variables and types. In tidy data:\n\n1. Each variable is a column; each column is a variable.\n2. Each observation is a row; each row is an observation.\n3. Each value is a cell; each cell is a single value.\nThis is Codd’s 3rd normal form, but with the constraints framed in statistical language, and the focus put on a single dataset rather than the many connected datasets common in relational databases."
+}
