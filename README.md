@@ -6,6 +6,7 @@ Short notes on useful things I've learned. Inspired by [@simonw](https://github.
 
 ## By date
 
+- [Tidy Data](./concepts/2026-01-25-Tidy-data.md) - 2026-01-25
 - [One-liners for downloading media](./sysadmin/2026-01-10-One-liners-to-download-media.md) - 2026-01-10
 - [Protomaps and PMTiles](./geometry/2026-01-06-Protomaps-and-pmtiles.md) - 2026-01-06
 - [V8 Natives syntax](./js/2025-12-23-V8-Natives-syntax.md) - 2025-12-23
@@ -92,6 +93,7 @@ Short notes on useful things I've learned. Inspired by [@simonw](https://github.
 
 ### Concepts
 
+- [Tidy Data](./concepts/2026-01-25-Tidy-data.md)
 - [Monoid](./concepts/2025-12-07-Monoid.md)
 - [Collective action problem](./concepts/2025-07-18-Collective-action-problem.md)
 - [Why silicon wafers are round](./concepts/2025-01-15-Why-silicon-wafers-are-round.md)
