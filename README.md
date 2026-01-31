@@ -6,6 +6,7 @@ Short notes on useful things I've learned. Inspired by [@simonw](https://github.
 
 ## By date
 
+- [HTTP Range requests](./networking/2026-01-31-HTTP-Range-requests.md) - 2026-01-31
 - [Tidy Data](./concepts/2026-01-25-Tidy-data.md) - 2026-01-25
 - [One-liners for downloading media](./sysadmin/2026-01-10-One-liners-to-download-media.md) - 2026-01-10
 - [Protomaps and PMTiles](./geometry/2026-01-06-Protomaps-and-pmtiles.md) - 2026-01-06
@@ -161,6 +162,10 @@ Short notes on useful things I've learned. Inspired by [@simonw](https://github.
 - [Absolute references in spreadsheets](./misc/2025-08-31-Absolute-references-in-spreadsheets.md)
 - [Blender](./misc/2025-08-21-Blender.md)
 - [Debug Adapter Protocol](./misc/2025-06-22-debug-adapter-protocol.md)
+
+### Networking
+
+- [HTTP Range requests](./networking/2026-01-31-HTTP-Range-requests.md)
 
 ### Python
 
