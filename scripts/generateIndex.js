@@ -19,7 +19,7 @@ function checkNotNull(x, msg = "Unexpected null value") {
 }
 
 function traverseDir(dir) {
-  if (dir === 'node_modules') return
+  if (dir === "node_modules") return;
 
   const files = fs.readdirSync(dir);
   files.forEach((file) => {
