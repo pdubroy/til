@@ -40,7 +40,7 @@ In each package, I have an `api-extractor.json` like this:
 }
 ```
 
-Note that I'm only using API reports for now — no .d.ts rollup or documentation.
+Note that I'm only using API reports for now — no .d.ts rollup or documentation. (I'm using [tsdown](https://tsdown.dev) as well, which already bundles my types into a single .d.ts.)
 
 Then, in my package.json, I have a package script named `api-report`:
 
