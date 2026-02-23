@@ -1,6 +1,6 @@
 # api-extractor
 
-The new version of [ohm-js](https://www.npmjs.com/package/ohm-js) (v18), is [now in beta]([)](https://ohmjs.org/blog/ohm-v18). It's written in TypeScript, whereas v17 was written in JavaScript with manually-updated type definitions.
+The new version of [ohm-js](https://www.npmjs.com/package/ohm-js) (v18), is [now in beta](https://ohmjs.org/blog/ohm-v18). It's written in TypeScript, whereas v17 was written in JavaScript with manually-updated type definitions.
 
 I was looking for a way to make sure that I don't accidentally make changes to the API, which led me to [api-extractor](https://api-extractor.com):
 
