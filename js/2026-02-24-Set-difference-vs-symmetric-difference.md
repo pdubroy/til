@@ -18,9 +18,9 @@ Both of these methods are [Baseline 2024](https://web.dev/baseline/2024) feature
 
 ## On the names
 
-Swift's name for `difference` is `subtracting`, which less confusing imo.
+Swift's name for `difference` is `subtracting`, which is less confusing imo.
 
-I decided to see where the naming was discussed on the original TC39 proposal, and found [tc39/proposal-set-methods#7](https://github.com/tc39/proposal-set-methods/issues/7), with a the following [comment from tabatkins](https://github.com/tc39/proposal-set-methods/issues/7#issuecomment-359982779)
+I decided to see where the naming was discussed on the original TC39 proposal, and found [tc39/proposal-set-methods#7](https://github.com/tc39/proposal-set-methods/issues/7), with a the following [comment from tabatkins](https://github.com/tc39/proposal-set-methods/issues/7#issuecomment-359982779):
 
 > Sorry for this being back-and-forth, but difference has the same lack of implicit ordering as `complement` did — it's not immediately, intuitively clear which element's values are retained. `minus` and `subtract` are both good; `removeAll`, while it implies mutation semantics, is also _extremely_ clear and good in this regard.
 >
