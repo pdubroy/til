@@ -1,4 +1,4 @@
-# Set `difference` and `symmetricDifference`
+# Set `difference` vs `symmetricDifference`
 
 I just spent an annoying 30 minutes debugging an issue caused by a silly mistake —
 
