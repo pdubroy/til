@@ -3,7 +3,8 @@
   "type": "module",
   "scripts": {
     "format": "npx prettier --write '**/*.js'",
-    "generate": "node scripts/generateIndex.js"
+    "generate": "node scripts/generateIndex.js",
+    "publish": "./scripts/publish.sh"
   },
   "devDependencies": {
     "@humanwhocodes/crosspost": "^1.0.2",
