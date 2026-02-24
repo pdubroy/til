@@ -6,6 +6,7 @@ Short notes on useful things I've learned. Inspired by [@simonw](https://github.
 
 ## By date
 
+- [Set `difference` and `symmetricDifference`](./js/2026-02-24-Set-symmetric-difference.md) - 2026-02-24
 - [api-extractor](./js/2026-02-18-api-extractor.md) - 2026-02-18
 - [HTTP Range requests](./networking/2026-01-31-HTTP-Range-requests.md) - 2026-01-31
 - [Tidy Data](./concepts/2026-01-25-Tidy-data.md) - 2026-01-25
@@ -125,6 +126,7 @@ Short notes on useful things I've learned. Inspired by [@simonw](https://github.
 
 ### JavaScript
 
+- [Set `difference` and `symmetricDifference`](./js/2026-02-24-Set-symmetric-difference.md)
 - [api-extractor](./js/2026-02-18-api-extractor.md)
 - [V8 Natives syntax](./js/2025-12-23-V8-Natives-syntax.md)
 - [Printing V8 bytecode](./js/2025-12-03-Printing-V8-bytecode.md)
