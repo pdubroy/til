@@ -43,4 +43,4 @@ It turns out the Linux kernel has used this for ~6 years; here's the comment fro
 
 (I may get some details of this explanation wrong, because hashing and hash table sizing are a surprisingly complex subject!)
 
-If I understand correctly, it makes sense to use this if (a) you don't have access to a good hash function, and (b) you want power-of-two table sizes, and/or (c) you want the bucket calculation operation to be as fast as possible. (A multiplication plus a shift is significantly faster than modulo/division.)
+If I understand correctly, it makes sense to use this if (a) you don't have access to a good hash function, and (b) you want power-of-two (not prime) table sizes; and/or (c) you want the bucket calculation operation to be as fast as possible. (A multiplication plus a shift is significantly faster than modulo/division.)
