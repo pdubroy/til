@@ -6,6 +6,7 @@ Short notes on useful things I've learned. Inspired by [@simonw](https://github.
 
 ## By date
 
+- [Fibonacci hashing](./algorithms/2026-03-03-Fibonacci-hashing.md) - 2026-03-03
 - [Set `difference` vs `symmetricDifference`](./js/2026-02-24-Set-difference-vs-symmetric-difference.md) - 2026-02-24
 - [api-extractor](./js/2026-02-18-api-extractor.md) - 2026-02-18
 - [HTTP Range requests](./networking/2026-01-31-HTTP-Range-requests.md) - 2026-01-31
@@ -83,6 +84,7 @@ Short notes on useful things I've learned. Inspired by [@simonw](https://github.
 
 ### Algorithms
 
+- [Fibonacci hashing](./algorithms/2026-03-03-Fibonacci-hashing.md)
 - [Exponentially-segmented arrays](./algorithms/2025-07-16-Exponentially-segmented-arrays.md)
 - [The HAMT popcount trick](./algorithms/2025-06-26-The-HAMT-popcount-trick.md)
 - [Box blur](./algorithms/2024-06-30-Box-blur.ipynb)
