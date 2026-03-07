@@ -6,6 +6,7 @@ Short notes on useful things I've learned. Inspired by [@simonw](https://github.
 
 ## By date
 
+- [Multithreaded WebAssembly](./wasm/2026-03-05-Multithreaded-WebAssembly.md) - 2026-03-05
 - [Fibonacci hashing](./algorithms/2026-03-03-Fibonacci-hashing.md) - 2026-03-03
 - [Set `difference` vs `symmetricDifference`](./js/2026-02-24-Set-difference-vs-symmetric-difference.md) - 2026-02-24
 - [api-extractor](./js/2026-02-18-api-extractor.md) - 2026-02-18
@@ -199,6 +200,7 @@ Short notes on useful things I've learned. Inspired by [@simonw](https://github.
 
 ### WebAssembly
 
+- [Multithreaded WebAssembly](./wasm/2026-03-05-Multithreaded-WebAssembly.md)
 - [Run-time code generation in WebAssembly](./wasm/2024-02-22-Run-time-code-generation.md)
 
 ### Web dev
