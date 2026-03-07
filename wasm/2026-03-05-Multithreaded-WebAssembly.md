@@ -1,6 +1,6 @@
 # Multithreaded WebAssembly
 
-Just like in JavaScript, you can do shared memory multithreading in WebAssembly! I've long known this was _possible_, but until the other day, had never actually played with it myself, so I decided to put together a small, self-contained example.
+Just like in JavaScript, you can do shared memory multithreading in WebAssembly! I've long known this was _possible_, but until the other day, had never actually played with it myself. So I decided to put together a small, self-contained example.
 
 (This is for Node, but it's pretty much the same in the browser.)
 
@@ -13,7 +13,7 @@ Let's start with the code for the worker, in `worker.js`:
 import { parentPort } from "worker_threads";
 
 parentPort.on("message", async ({ compiledModule, memory, iterations, workerId }) => {
-  // Create a _module instance_ from the CompiledModule, importing `memory`.
+  // Create a module instance from the compiled module, importing `memory`.
   const instance = await WebAssembly.instantiate(compiledModule, {
     env: { memory },
   });
@@ -22,6 +22,8 @@ parentPort.on("message", async ({ compiledModule, memory, iterations, workerId }
   parentPort.postMessage({ id: workerId }); // Tell the parent we're done.
 });
 ```
+
+Note that the compiled module and a reference to the memory are sent from the parent to the worker. More details on that soon.
 
 And here's the main thread code, in `multicore-wasm.js`:
 
@@ -78,7 +80,7 @@ for (let id of workerIds) {
 
 ### Structured cloning of `WebAssembly.Module`
 
-Normally you'd instantiate a Wasm module with `WebAssembly.instantiate`, which gives you a _module instance_. Here, we use `WebAssembly.compile`, which gives us a [`WebAssembly.Module`](https://developer.mozilla.org/en-US/docs/WebAssembly/Reference/JavaScript_interface/Module). This is a stateless object that is _structured-cloneable_, which allows it to be safely shared across realm boundaries.
+Normally you'd instantiate a Wasm module with [`instantiateStreaming`](https://developer.mozilla.org/en-US/docs/WebAssembly/Reference/JavaScript_interface/instantiateStreaming_static), which gives you a _module instance_. Here, we use `WebAssembly.compile`, which gives us a [`WebAssembly.Module`](https://developer.mozilla.org/en-US/docs/WebAssembly/Reference/JavaScript_interface/Module). This is a stateless object that is _structured-cloneable_, which allows it to be safely shared across realm boundaries.
 
 Serialization (an implicit part of structured cloning) of WebAssembly modules is defined in [§3 of the WebAssembly Web API](https://www.w3.org/TR/wasm-web-api-2/#serialization), which says:
 
@@ -86,7 +88,7 @@ Serialization (an implicit part of structured cloning) of WebAssembly modules is
 
 ### Shared memory
 
-`WebAssembly.Memory` also support structured cloning. When we pass `shared: true`, the `buffer` property is a [`SharedArrayBuffer`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/SharedArrayBuffer):
+`WebAssembly.Memory` objects also support structured cloning. When we pass `shared: true`, the `buffer` property is a [`SharedArrayBuffer`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/SharedArrayBuffer):
 
 > The structured clone algorithm accepts `SharedArrayBuffer` objects and typed arrays mapped onto `SharedArrayBuffer` objects. In both cases, the `SharedArrayBuffer` object is transmitted to the receiver resulting in a new, private `SharedArrayBuffer` object in the receiving agent (just as for `ArrayBuffer`). However, the shared data block referenced by the two `SharedArrayBuffer` objects is the same data block, and a side effect to the block in one agent will eventually become visible in the other agent.
 
@@ -95,7 +97,7 @@ Serialization (an implicit part of structured cloning) of WebAssembly modules is
 The last piece of the puzzle is the `i32.atomic.rmw.add` instruction used in the `addId` function:
 
 ```
-  (func (export "add") (result i32)
+  (func (export "addId") (result i32)
     ;; mem[0] += workerId
     i32.const 0
     global.get 0
@@ -108,4 +110,4 @@ This instruction is defined in the [threads proposal](https://github.com/WebAsse
 
 > Atomic read-modify-write (RMW) operators atomically read a value from an address, modify the value, and store the resulting value to the same address. All RMW operators return the value read from memory before the modify operation was performed.
 
-So `i32.atomic.rmw.add` atomically takes two parameters from the stack: the dest offset in memory, and the addend. It leaves the previous value on the stack.
+So `i32.atomic.rmw.add` atomically takes two parameters from the stack: the dest offset in memory, and the addend. It leaves the previous value on the stack, which becomes the return value of `addId`.
