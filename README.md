@@ -6,6 +6,7 @@ Short notes on useful things I've learned. Inspired by [@simonw](https://github.
 
 ## By date
 
+- [Python signal handling](./python/2026-04-01-Python-signal-handling.md) - 2026-04-01
 - [Multithreaded WebAssembly](./wasm/2026-03-05-Multithreaded-WebAssembly.md) - 2026-03-05
 - [Fibonacci hashing](./algorithms/2026-03-03-Fibonacci-hashing.md) - 2026-03-03
 - [Set `difference` vs `symmetricDifference`](./js/2026-02-24-Set-difference-vs-symmetric-difference.md) - 2026-02-24
@@ -176,6 +177,7 @@ Short notes on useful things I've learned. Inspired by [@simonw](https://github.
 
 ### Python
 
+- [Python signal handling](./python/2026-04-01-Python-signal-handling.md)
 - [`uv run`](./python/2025-09-02-uv-run.md)
 - [Scripting GMail with Python](./python/2025-01-07-scripting-GMail.md)
 - [Installing Python type stubs](./python/2024-07-17-installing-Python-type-stubs.md)
