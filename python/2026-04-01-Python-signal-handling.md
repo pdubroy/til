@@ -70,3 +70,5 @@ So the main thread could get preempted after acquiring the lock, but before the 
             self._flag = True
             self._cond.notify_all()
 ```
+
+…so you'd have a self-deadlock when the main thread tried to acquire a lock again in the handler.
